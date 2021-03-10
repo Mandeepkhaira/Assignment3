@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="Candidate_page">Candidate</string>
+    <string name="candidate_1">candidate1</string>
+    <string name="candidate_2">candidate2</string>
+    <string name="candidate_3">candidate3</string>
+    <string name="candidate_page">candidate Page</string>
+    <string name="vote_page">Vote</string>
+    <string name="voter_name">Name</string>
+    <string name="voter_id">Id</string>
+    <string name="vote_please">Vote Please</string>
+    <string-array name="Choose_candidate">
+        <item>candidate1</item>
+        <item>candidate2</item>
+        <item>candidate3</item>
+    </string-array>
+    </resources>

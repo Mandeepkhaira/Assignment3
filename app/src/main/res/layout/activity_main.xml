@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/candidate_page"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:contentDescription="@string/Candidate_page"
+            android:gravity="center"
+            android:text="@string/candidate_page"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/candidate1"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:contentDescription="@string/candidate_1"
+            android:gravity="center"
+            android:text="@string/candidate_1"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/candidate2"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:contentDescription="@string/candidate_2"
+            android:gravity="center"
+            android:text="@string/candidate_2"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/candidate3"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:contentDescription="@string/candidate_3"
+            android:gravity="center"
+            android:text="@string/candidate_3"
+            android:textSize="36sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

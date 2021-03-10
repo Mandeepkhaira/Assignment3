@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vote"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="#4CAF50"
+            android:contentDescription="@string/vote_page"
+            android:gravity="center"
+            android:text="@string/vote_please"
+            android:textSize="36sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:contentDescription="@string/voter_name"
+                android:gravity="center"
+                android:hint="hint"
+                android:text="write your name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:contentDescription="@string/voter_id"
+                android:gravity="center"
+                android:hint="hint"
+                android:text="Enter your ID" />
+
+            <Spinner
+                android:id="@+id/candidate"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:contentDescription="@"
+                android:isScrollContainer="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
